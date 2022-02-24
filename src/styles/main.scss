@@ -1,0 +1,12 @@
+@import 'sass-rem';
+@import './setting.scss';
+@import './override.scss';
+@import '~bootstrap/scss/bootstrap';
+@import './base.scss';
+@import './responsive.scss';
+@import './helpers.scss';
+//===================  page
+@import './Pages/HomePage.scss';
+//===================  component
+@import './Components/button.scss';
+@import './Components/inputHookForm.scss';

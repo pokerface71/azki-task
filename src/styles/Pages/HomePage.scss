@@ -1,0 +1,53 @@
+.main-color--home-page {
+	@media (min-width: 768px) {
+		background: $liner-gradient;
+	}
+	@media (max-width: 767px) {
+		background: $liner-gradient-rotate;
+	}
+	.car-image {
+		text-align: left;
+		@media (min-width: 768px) {
+			max-width: 50%;
+		}
+		position: absolute;
+		left: rem(10px);
+		bottom: rem(10px);
+		img {
+			width: 100%;
+		}
+	}
+}
+.icon-right-home {
+	width: rem(15px);
+	height: rem(17px);
+	border: rem(3px) solid $color-primary;
+	border-radius: $border-radius-xs;
+	position: relative;
+	&::after {
+		content: '';
+		width: rem(3px);
+		height: rem(10px);
+		position: absolute;
+		left: rem(1px);
+		top: rem(1px);
+		background-color: $color-primary;
+		border-radius: $border-radius-xs;
+	}
+}
+.parent-from {
+	@media (min-width: 768px) {
+		margin: rem(50px) rem(50px) 0 0;
+	}
+	@media (max-width: 768px) {
+		margin: rem(50px) 0 0 0;
+	}
+}
+.icon-user {
+	width: rem(15px);
+	height: rem(15px);
+	margin: 0 rem(5px);
+	img {
+		width: 100%;
+	}
+}

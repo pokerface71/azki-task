@@ -1,0 +1,45 @@
+.input-form-hook {
+	position: relative;
+	.input-form-hook--input,
+	.react-select__control {
+		width: 100%;
+		font-size: rem(12px);
+		height: rem(38px);
+		border: 2px solid $input-color;
+		border-radius: $border-radius-sm;
+		padding: rem(5px) rem(15px);
+		&:focus {
+			outline: none;
+		}
+	}
+	input:read-only {
+		background-color: $input-color;
+		pointer-events: none;
+		opacity: 0.4;
+	}
+
+	.input-form-hook--error,
+	.has-error {
+		color: red;
+		position: absolute;
+		bottom: rem(-12px);
+		right: 0;
+		font-size: rem(12px);
+	}
+	&.is-textarea {
+		height: auto !important;
+		.input-form-hook--error {
+			bottom: rem(-3px);
+		}
+	}
+}
+.is-error {
+	color: red;
+	position: absolute;
+	bottom: rem(-10px);
+	right: 0;
+	font-size: rem(12px);
+}
+.form-group {
+	position: relative;
+}

@@ -1,0 +1,11 @@
+.Toastify__toast {
+	div {
+		font-family: $font-family !important;
+		font-size: rem(12px) !important;
+	}
+}
+.modal-header {
+	.btn-close {
+		margin: 0.5rem !important;
+	}
+}

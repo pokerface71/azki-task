@@ -1,0 +1,44 @@
+///////////////////////////////////
+/////////////  color  /////////////
+///////////////////////////////////
+$base-bg: #e5e5e5;
+$text: #333;
+$input-color: #b0b0b0;
+$background-main: #fffbeb;
+$gray-light: #f5f5f5;
+$footer-bg: #666666;
+$color-primary: #25b79b;
+$liner-gradient: linear-gradient(
+	to right,
+	#fffbeb 0%,
+	#fffbeb 30%,
+	#ffffff 30%,
+	#ffffff 100%
+);
+$liner-gradient-rotate: linear-gradient(
+	to top,
+	#fffbeb 0%,
+	#fffbeb 30%,
+	#ffffff 30%,
+	#ffffff 100%
+);
+///////////////////////////////////
+/////////////  fonts  /////////////
+///////////////////////////////////
+$font-family: IRANSans, sans-serif;
+///////////////////////////////////
+/////////////  border-radius  /////////////
+///////////////////////////////////
+$border-radius: 16px;
+$border-radius-xs: 4px;
+$border-radius-sm: 8px;
+$border-radius-md: 12px;
+$border-radius-lg: 16px;
+$border-radius-xl: 32px;
+$border-radius-xxl: 46px;
+$border-radius-full: 100%;
+///////////////////////////////////
+/////////////  z-index  /////////////
+///////////////////////////////////
+$base-z-index: 10;
+$header-z-index: $base-z-index + 1;
